@@ -224,7 +224,7 @@ while True:
                         py = int(pt1[1] * alpha + pt2[1] * (1 - alpha)) + np.random.randint(-15, 15)
                         cv2.circle(img, (px, py), np.random.randint(1, 4), (0, 255, 255), -1)
 
-                cv2.putText(img, f"PORTAL: {filter_name}", (top_pts[0][0], top_pts[0][1] - 10), 
+                cv2.putText(img, f"PORTAL: {filter_name}", (top_pts[0][0], top_pts[0][1] - 10),
                             cv2.FONT_HERSHEY_PLAIN, 1.5, (255, 255, 255), 2)
 
     # Overlay Teks
